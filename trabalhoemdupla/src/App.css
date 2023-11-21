@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+
+}
+
+h1{
+  background-color: rgb(41, 140, 170);
+  color: white;
+  text-align: justify;
+  font-size: 35px;
+}
+h2{
+  text-align: center;
+  font-size: 25px;
+}
