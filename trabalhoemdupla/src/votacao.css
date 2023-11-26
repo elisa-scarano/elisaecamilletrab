@@ -1,0 +1,31 @@
+.titulo{
+    font-size: 30px;
+    background-color: rgb(133, 1, 228);
+    color: white;
+}
+
+.resultado{
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.morango{
+    font-size: 19px;
+    margin: 20px;
+    background-color: rgb(235, 138, 138);
+    color: white;
+}
+
+.chocolate{
+    font-size: 19px;
+    margin: 20px;
+    background-color: rgb(81, 25, 15);
+    color: white;
+}
+
+.baunilha{
+    font-size: 19px;
+    margin: 20px;
+    background-color: rgb(194, 195, 120);
+    color: white;
+}

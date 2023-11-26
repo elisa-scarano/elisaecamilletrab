@@ -10,6 +10,13 @@ function CalcularMedia() {
     const calcularmedia = () => {
         const resultado = (Number(nota1) + Number(nota2) + Number(nota3)) / 3;
         setMedia(resultado)
+        if (resultado <= 4) {
+            alert(`Reprovado`);
+          } else if (resultado > 4 && resultado < 6) {
+            alert(`Recuperação`);
+          } else if (resultado >=6){
+            alert(`Aprovado`);
+          } 
     }
     
 
@@ -21,13 +28,7 @@ function CalcularMedia() {
             
             <button className='botao' onClick={calcularmedia}>Calcular Média</button>
             {media !== null && <p className='resul'>Resultado:{media}</p>}
-            if(media = 4){
-               alert('Você está Reprovado!!')
-            } else(media = 4 && media = 6){
-                alert('Você está em Recuperação!!!')
-            } else(media = 6){
-                alert('Você está APROVADO!!!!')
-            }
+        
         </div>
         
     )
